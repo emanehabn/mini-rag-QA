@@ -27,7 +27,7 @@ print(get_requirements())
 print("++++++++++++++++++")
 
 setup(
-    name="Eman-FlipCart-Recommender",
+    name="Eman-miniRAG-QA",
     version="0.0.1",
     author="Eman Nasef",
     author_email="em****",
