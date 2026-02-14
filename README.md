@@ -28,5 +28,15 @@ Note: install ipykernal if you are using vscode
 ```bash
 $ cp .env.example .env
 ```
+## Run fastapi server
+```bash
+$ uvicorn main:app --reload --port 5000 
+```
+## Postman Collection
 
+You can find the postman collection at [assets/min-ragQA-app.postman_collection.json](assets/min-ragQA-app.postman_collection.json)
+## 
+```bash
+$ 
+```
 
