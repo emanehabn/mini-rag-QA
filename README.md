@@ -15,7 +15,8 @@ $ python3 -m venv ~/.venvs/mini-rag-env
 $ source ~/.venvs/mini-rag-env/bin/activate
 # Note: install ipykernal if you are using vscode
 
-
+##install dependencies
+$ pip install .
 
 
 ```
