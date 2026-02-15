@@ -5,8 +5,10 @@ class Settings(BaseSettings):
     APP_NAME:str
     APP_VERSION:str
     OPENAI_API_key:str
-    FILE_ALLOWED_EXTENSION=list
-    FILE_MAX_SIZE=int
+    FILE_ALLOWED_TYPES:list
+    FILE_MAX_SIZE:int
+    FILE_DEFAULT_CHUNCK_SIZE:int
+    
 
 
     class Config:
