@@ -35,6 +35,18 @@ $ uvicorn main:app --reload --port 5000
 ## Postman Collection
 
 You can find the postman collection at [assets/min-ragQA-app.postman_collection.json](assets/min-ragQA-app.postman_collection.json)
+
+
+## Docker compose:
+To install mongodb docker compose image
+
+```bash
+$ docker compose -f docker/docker-compose.yaml up -d
+```
+- To visualize **mongodb** connection use **Studio 3T**, you can download the free community version from [here](https://robomongo.org/download.php) 
+
+- mongodb is connected via **27007** port.
+
 ## 
 ```bash
 $ 
