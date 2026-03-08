@@ -47,7 +47,7 @@ class ChunkModel(BaseDataModel):
         if result is None:
             return None
         
-        return DataChunk(**result)
+        return DataChunK(**result)
 
     async def insert_many_chunks(self, chunks: list, batch_size: int=100):
 
